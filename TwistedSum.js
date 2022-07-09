@@ -4,8 +4,8 @@ function twistedSum(n) {
     if (i.toString().length > 1) {
       i.toString()
         .split("")
-        .forEach((el) => {
-          sum += parseInt(el);
+        .forEach((index) => {
+          sum += parseInt(index);
         });
     } else {
       sum += i;
